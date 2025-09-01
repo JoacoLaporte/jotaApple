@@ -7,11 +7,11 @@
     "categoria": "iphone16ProMax",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/iphone16pro/i16proparejanegro.jpg",
-      "/imagenesProductos/iphone16pro/i16profrentenegro.jpg",
-      "/imagenesProductos/iphone16pro/i16properfilnegro.jpg",
-      "/imagenesProductos/iphone16pro/i16procajanegro.jpg",
-      "/imagenesProductos/iphone16pro/i16profamilia.jpg"
+      "imagenesProductos/iphone16pro/i16proparejanegro.jpg",
+      "imagenesProductos/iphone16pro/i16profrentenegro.jpg",
+      "imagenesProductos/iphone16pro/i16properfilnegro.jpg",
+      "imagenesProductos/iphone16pro/i16procajanegro.jpg",
+      "imagenesProductos/iphone16pro/i16profamilia.jpg"
     ]
   },
   {
@@ -21,11 +21,11 @@
     "categoria": "iphone16ProMax",
     "color": "Blanco",
     "imagenes": [
-      "/imagenesProductos/iphone16pro/i16proparejablanco.jpg",
-      "/imagenesProductos/iphone16pro/i16profrenteblanco.jpg",
-      "/imagenesProductos/iphone16pro/i16properfilblanco.jpg",
-      "/imagenesProductos/iphone16pro/i16procajablanco.jpg",
-      "/imagenesProductos/iphone16pro/i16profamilia.jpg"
+      "imagenesProductos/iphone16pro/i16proparejablanco.jpg",
+      "imagenesProductos/iphone16pro/i16profrenteblanco.jpg",
+      "imagenesProductos/iphone16pro/i16properfilblanco.jpg",
+      "imagenesProductos/iphone16pro/i16procajablanco.jpg",
+      "imagenesProductos/iphone16pro/i16profamilia.jpg"
     ]
   },
   {
@@ -35,11 +35,11 @@
     "categoria": "iphone16Pro",
     "color": "Blanco",
     "imagenes": [ 
-      "/imagenesProductos/iphone16pro/i16proparejablanco.jpg",
-      "/imagenesProductos/iphone16pro/i16profrenteblanco.jpg",
-      "/imagenesProductos/iphone16pro/i16properfilblanco.jpg",
-      "/imagenesProductos/iphone16pro/i16procajablanco.jpg",
-      "/imagenesProductos/iphone16pro/i16profamilia.jpg"
+      "imagenesProductos/iphone16pro/i16proparejablanco.jpg",
+      "imagenesProductos/iphone16pro/i16profrenteblanco.jpg",
+      "imagenesProductos/iphone16pro/i16properfilblanco.jpg",
+      "imagenesProductos/iphone16pro/i16procajablanco.jpg",
+      "imagenesProductos/iphone16pro/i16profamilia.jpg"
     ]
   },
   {
@@ -49,11 +49,11 @@
     "categoria": "iphone16Pro",
     "color": "Negro",
     "imagenes": [ 
-      "/imagenesProductos/iphone16pro/i16proparejanegro.jpg",
-      "/imagenesProductos/iphone16pro/i16profrentenegro.jpg",
-      "/imagenesProductos/iphone16pro/i16properfilnegro.jpg",
-      "/imagenesProductos/iphone16pro/i16procajanegro.jpg",
-      "/imagenesProductos/iphone16pro/i16profamilia.jpg"
+      "imagenesProductos/iphone16pro/i16proparejanegro.jpg",
+      "imagenesProductos/iphone16pro/i16profrentenegro.jpg",
+      "imagenesProductos/iphone16pro/i16properfilnegro.jpg",
+      "imagenesProductos/iphone16pro/i16procajanegro.jpg",
+      "imagenesProductos/iphone16pro/i16profamilia.jpg"
     ]
   },
   {
@@ -63,11 +63,11 @@
     "categoria": "iphone16Plus",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/iphone16/i16parejanegro.jpg",
-      "/imagenesProductos/iphone16/i16frentenegro.jpg",
-      "/imagenesProductos/iphone16/i16perfilnegro.jpg",
-      "/imagenesProductos/iphone16/i16cajanegro.jpg",
-      "/imagenesProductos/iphone16/i16familia.jpg"
+      "imagenesProductos/iphone16/i16parejanegro.jpg",
+      "imagenesProductos/iphone16/i16frentenegro.jpg",
+      "imagenesProductos/iphone16/i16perfilnegro.jpg",
+      "imagenesProductos/iphone16/i16cajanegro.jpg",
+      "imagenesProductos/iphone16/i16familia.jpg"
     ]
   },
   {
@@ -77,11 +77,11 @@
     "categoria": "iphone16Plus",
     "color": "Violeta",
     "imagenes": [
-      "/imagenesProductos/iphone16/i16parejavioleta.jpg",
-      "/imagenesProductos/iphone16/i16frentevioleta.jpg",
-      "/imagenesProductos/iphone16/i16perfilvioleta.jpg",
-      "/imagenesProductos/iphone16/i16cajavioleta.jpg",
-      "/imagenesProductos/iphone16/i16familia.jpg"
+      "imagenesProductos/iphone16/i16parejavioleta.jpg",
+      "imagenesProductos/iphone16/i16frentevioleta.jpg",
+      "imagenesProductos/iphone16/i16perfilvioleta.jpg",
+      "imagenesProductos/iphone16/i16cajavioleta.jpg",
+      "imagenesProductos/iphone16/i16familia.jpg"
     ]
   },
   {
@@ -91,11 +91,11 @@
     "categoria": "iphone16",
     "color": "Violeta",
     "imagenes": [
-      "/imagenesProductos/iphone16/i16parejavioleta.jpg",
-      "/imagenesProductos/iphone16/i16frentevioleta.jpg",
-      "/imagenesProductos/iphone16/i16perfilvioleta.jpg",
-      "/imagenesProductos/iphone16/i16cajavioleta.jpg",
-      "/imagenesProductos/iphone16/i16familia.jpg"
+      "imagenesProductos/iphone16/i16parejavioleta.jpg",
+      "imagenesProductos/iphone16/i16frentevioleta.jpg",
+      "imagenesProductos/iphone16/i16perfilvioleta.jpg",
+      "imagenesProductos/iphone16/i16cajavioleta.jpg",
+      "imagenesProductos/iphone16/i16familia.jpg"
     ]
   },
   {
@@ -105,11 +105,11 @@
     "categoria": "iphone16",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/iphone16/i16parejanegro.jpg",
-      "/imagenesProductos/iphone16/i16frentenegro.jpg",
-      "/imagenesProductos/iphone16/i16perfilnegro.jpg",
-      "/imagenesProductos/iphone16/i16cajanegro.jpg",
-      "/imagenesProductos/iphone16/i16familia.jpg"
+      "imagenesProductos/iphone16/i16parejanegro.jpg",
+      "imagenesProductos/iphone16/i16frentenegro.jpg",
+      "imagenesProductos/iphone16/i16perfilnegro.jpg",
+      "imagenesProductos/iphone16/i16cajanegro.jpg",
+      "imagenesProductos/iphone16/i16familia.jpg"
     ]
   },
   {
@@ -119,9 +119,9 @@
     "categoria": "iphone15Pro",
     "color": "Silver",
     "imagenes": [
-      "/imagenesProductos/iphone15pro/i15proparejasilver.jpg",
-      "/imagenesProductos/iphone15pro/i15prodetalle.jpg",
-      "/imagenesProductos/iphone15pro/i15profamilia.jpg"
+      "imagenesProductos/iphone15pro/i15proparejasilver.jpg",
+      "imagenesProductos/iphone15pro/i15prodetalle.jpg",
+      "imagenesProductos/iphone15pro/i15profamilia.jpg"
     ]
   },
   {
@@ -131,9 +131,9 @@
     "categoria": "iphone15ProMax",
     "color": "Midnight",
     "imagenes": [
-      "/imagenesProductos/iphone15pro/i15proparejasilver.jpg",
-      "/imagenesProductos/iphone15pro/i15prodetalle.jpg",
-      "/imagenesProductos/iphone15pro/i15profamilia.jpg"
+      "imagenesProductos/iphone15pro/i15proparejasilver.jpg",
+      "imagenesProductos/iphone15pro/i15prodetalle.jpg",
+      "imagenesProductos/iphone15pro/i15profamilia.jpg"
     ]
   },
   {
@@ -143,10 +143,10 @@
     "categoria": "iphone14",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/iphone14/i14parejanegro.jpg",
-      "/imagenesProductos/iphone14/i14camaranegro.jpg",
-      "/imagenesProductos/iphone14/i14frentenegro.jpg",
-      "/imagenesProductos/iphone14/i14perfilnegro.jpg"
+      "imagenesProductos/iphone14/i14parejanegro.jpg",
+      "imagenesProductos/iphone14/i14camaranegro.jpg",
+      "imagenesProductos/iphone14/i14frentenegro.jpg",
+      "imagenesProductos/iphone14/i14perfilnegro.jpg"
     ]
   },
   {
@@ -156,10 +156,10 @@
     "categoria": "iphone14",
     "color": "Celeste",
     "imagenes": [
-      "/imagenesProductos/iphone14/i14parejaceleste.jpg",
-      "/imagenesProductos/iphone14/i14camaraceleste.jpg",
-      "/imagenesProductos/iphone14/i14frenteceleste.jpg",
-      "/imagenesProductos/iphone14/i14perfilceleste.jpg"
+      "imagenesProductos/iphone14/i14parejaceleste.jpg",
+      "imagenesProductos/iphone14/i14camaraceleste.jpg",
+      "imagenesProductos/iphone14/i14frenteceleste.jpg",
+      "imagenesProductos/iphone14/i14perfilceleste.jpg"
     ]
   },
   {
@@ -169,11 +169,11 @@
     "categoria": "iphone14ProMax",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/iphone14pro/i14proparejanegro.jpg",
-      "/imagenesProductos/iphone14pro/i14procamaranegro.jpg",
-      "/imagenesProductos/iphone14pro/i14properfilnegro.jpg",
-      "/imagenesProductos/iphone14pro/i14profrentenegro.jpg",
-      "/imagenesProductos/iphone14pro/i14profamilia.jpg"
+      "imagenesProductos/iphone14pro/i14proparejanegro.jpg",
+      "imagenesProductos/iphone14pro/i14procamaranegro.jpg",
+      "imagenesProductos/iphone14pro/i14properfilnegro.jpg",
+      "imagenesProductos/iphone14pro/i14profrentenegro.jpg",
+      "imagenesProductos/iphone14pro/i14profamilia.jpg"
     ]
   },
   {
@@ -183,11 +183,11 @@
     "categoria": "iphone14ProMax",
     "color": "Blanco",
     "imagenes": [
-      "/imagenesProductos/iphone14pro/i14proparejablanco.jpg",
-      "/imagenesProductos/iphone14pro/i14procamarablanco.jpg",
-      "/imagenesProductos/iphone14pro/i14properfilblanco.jpg",
-      "/imagenesProductos/iphone14pro/i14profrenteblanco.jpg",
-      "/imagenesProductos/iphone14pro/i14profamilia.jpg"
+      "imagenesProductos/iphone14pro/i14proparejablanco.jpg",
+      "imagenesProductos/iphone14pro/i14procamarablanco.jpg",
+      "imagenesProductos/iphone14pro/i14properfilblanco.jpg",
+      "imagenesProductos/iphone14pro/i14profrenteblanco.jpg",
+      "imagenesProductos/iphone14pro/i14profamilia.jpg"
     ]
   },
   {
@@ -197,11 +197,11 @@
     "categoria": "macbookProM4-16",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/macbookproM4/mproparejanegro.jpg",
-      "/imagenesProductos/macbookproM4/mprofrentenegro.jpg",
-      "/imagenesProductos/macbookproM4/mproarribanegro.jpg",
-      "/imagenesProductos/macbookproM4/mproperfilnegro.jpg",
-      "/imagenesProductos/macbookproM4/mprocajanegro.jpg"
+      "imagenesProductos/macbookproM4/mproparejanegro.jpg",
+      "imagenesProductos/macbookproM4/mprofrentenegro.jpg",
+      "imagenesProductos/macbookproM4/mproarribanegro.jpg",
+      "imagenesProductos/macbookproM4/mproperfilnegro.jpg",
+      "imagenesProductos/macbookproM4/mprocajanegro.jpg"
     ]
   },
   {
@@ -211,11 +211,11 @@
     "categoria": "macbookProM4-14",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/macbookproM4/mproparejanegro.jpg",
-      "/imagenesProductos/macbookproM4/mprofrentenegro.jpg",
-      "/imagenesProductos/macbookproM4/mproarribanegro.jpg",
-      "/imagenesProductos/macbookproM4/mproperfilnegro.jpg",
-      "/imagenesProductos/macbookproM4/mprocajanegro.jpg"
+      "imagenesProductos/macbookproM4/mproparejanegro.jpg",
+      "imagenesProductos/macbookproM4/mprofrentenegro.jpg",
+      "imagenesProductos/macbookproM4/mproarribanegro.jpg",
+      "imagenesProductos/macbookproM4/mproperfilnegro.jpg",
+      "imagenesProductos/macbookproM4/mprocajanegro.jpg"
     ]
   },
   {
@@ -225,10 +225,10 @@
     "categoria": "macbookProM2-13",
     "color": "Silver",
     "imagenes": [
-      "/imagenesProductos/macbookproM2/mprofrente2silver.jpg",
-      "/imagenesProductos/macbookproM2/mprosemisilver.jpg",
-      "/imagenesProductos/macbookproM2/mprotouchsilver.jpg",
-      "/imagenesProductos/macbookproM2/mprofrentesilver.jpg"
+      "imagenesProductos/macbookproM2/mprofrente2silver.jpg",
+      "imagenesProductos/macbookproM2/mprosemisilver.jpg",
+      "imagenesProductos/macbookproM2/mprotouchsilver.jpg",
+      "imagenesProductos/macbookproM2/mprofrentesilver.jpg"
     ]
   },
   {
@@ -238,14 +238,14 @@
     "categoria": "macbookAirM4-15",
     "color": "Silver",
     "imagenes": [
-      "/imagenesProductos/macbookair/mairfrentesilver.jpg",
-      "/imagenesProductos/macbookair/mairparejasilver.jpg",
-      "/imagenesProductos/macbookair/mairsemisilver.jpg",
-      "/imagenesProductos/macbookair/mairperfilsilver.jpg",
-      "/imagenesProductos/macbookair/mairperfil2.jpg",
-      "/imagenesProductos/macbookair/mairdetallessilver.jpg",
-      "/imagenesProductos/macbookair/mairarribasilver.jpg",
-      "/imagenesProductos/macbookair/mairfamilia2.jpg"
+      "imagenesProductos/macbookair/mairfrentesilver.jpg",
+      "imagenesProductos/macbookair/mairparejasilver.jpg",
+      "imagenesProductos/macbookair/mairsemisilver.jpg",
+      "imagenesProductos/macbookair/mairperfilsilver.jpg",
+      "imagenesProductos/macbookair/mairperfil2.jpg",
+      "imagenesProductos/macbookair/mairdetallessilver.jpg",
+      "imagenesProductos/macbookair/mairarribasilver.jpg",
+      "imagenesProductos/macbookair/mairfamilia2.jpg"
     ]
       
   },
@@ -256,13 +256,13 @@
     "categoria": "macbookAirM4-15",
     "color": "Space gray",
     "imagenes": [
-      "/imagenesProductos/macbookair/mairfrentegris.jpg",
-      "/imagenesProductos/macbookair/mairarribagris.jpg",
-      "/imagenesProductos/macbookair/mairperfilgris.jpg",
-      "/imagenesProductos/macbookair/mairfamilia.jpg",
-      "/imagenesProductos/macbookair/mairpareja2.jpg",
-      "/imagenesProductos/macbookair/mairperfil2.jpg",
-      "/imagenesProductos/macbookair/mairfamilia2.jpg"
+      "imagenesProductos/macbookair/mairfrentegris.jpg",
+      "imagenesProductos/macbookair/mairarribagris.jpg",
+      "imagenesProductos/macbookair/mairperfilgris.jpg",
+      "imagenesProductos/macbookair/mairfamilia.jpg",
+      "imagenesProductos/macbookair/mairpareja2.jpg",
+      "imagenesProductos/macbookair/mairperfil2.jpg",
+      "imagenesProductos/macbookair/mairfamilia2.jpg"
     ]
       
   },
@@ -273,13 +273,13 @@
     "categoria": "macbookAirM3-15",
     "color": "Silver",
     "imagenes": [
-      "/imagenesProductos/macbookair/mairparejasilver.jpg",
-      "/imagenesProductos/macbookair/mairfrentesilver.jpg",
-      "/imagenesProductos/macbookair/mairperfil2.jpg",
-      "/imagenesProductos/macbookair/mairsemisilver.jpg",
-      "/imagenesProductos/macbookair/mairperfilsilver.jpg",
-      "/imagenesProductos/macbookair/mairdetallessilver.jpg",
-      "/imagenesProductos/macbookair/mairarribasilver.jpg"
+      "imagenesProductos/macbookair/mairparejasilver.jpg",
+      "imagenesProductos/macbookair/mairfrentesilver.jpg",
+      "imagenesProductos/macbookair/mairperfil2.jpg",
+      "imagenesProductos/macbookair/mairsemisilver.jpg",
+      "imagenesProductos/macbookair/mairperfilsilver.jpg",
+      "imagenesProductos/macbookair/mairdetallessilver.jpg",
+      "imagenesProductos/macbookair/mairarribasilver.jpg"
     ]
   },
   {
@@ -289,11 +289,11 @@
     "categoria": "imacM4-24",
     "color": "Silver",
     "imagenes": [
-      "/imagenesProductos/imac/imacfrentesilver.jpg",
-      "/imagenesProductos/imac/imacperfilsilver.jpg",
-      "/imagenesProductos/imac/imacdorsosilver.jpg",
-      "/imagenesProductos/imac/imaccajasilver.jpg",
-      "/imagenesProductos/imac/imacfamilia.jpg"
+      "imagenesProductos/imac/imacfrentesilver.jpg",
+      "imagenesProductos/imac/imacperfilsilver.jpg",
+      "imagenesProductos/imac/imacdorsosilver.jpg",
+      "imagenesProductos/imac/imaccajasilver.jpg",
+      "imagenesProductos/imac/imacfamilia.jpg"
     ]
   },
   {
@@ -303,11 +303,11 @@
     "categoria": "imacM4-24",
     "color": "Rosa",
     "imagenes": [
-      "/imagenesProductos/imac/imacfrenterosa.jpg",
-      "/imagenesProductos/imac/imacperfilrosa.jpg",
-      "/imagenesProductos/imac/imacdorsorosa.jpg",
-      "/imagenesProductos/imac/imaccajarosa.jpg",
-      "/imagenesProductos/imac/imacfamilia.jpg"
+      "imagenesProductos/imac/imacfrenterosa.jpg",
+      "imagenesProductos/imac/imacperfilrosa.jpg",
+      "imagenesProductos/imac/imacdorsorosa.jpg",
+      "imagenesProductos/imac/imaccajarosa.jpg",
+      "imagenesProductos/imac/imacfamilia.jpg"
     ]
   },
   {
@@ -317,11 +317,11 @@
     "categoria": "imacM4-24",
     "color": "Celeste",
     "imagenes": [
-      "/imagenesProductos/imac/imacfrenteceleste.jpg",
-      "/imagenesProductos/imac/imaccelesteperfil.jpg",
-      "/imagenesProductos/imac/imacdorsoceleste.jpg",
-      "/imagenesProductos/imac/imaccajaceleste.jpg",
-      "/imagenesProductos/imac/imacfamilia.jpg"
+      "imagenesProductos/imac/imacfrenteceleste.jpg",
+      "imagenesProductos/imac/imaccelesteperfil.jpg",
+      "imagenesProductos/imac/imacdorsoceleste.jpg",
+      "imagenesProductos/imac/imaccajaceleste.jpg",
+      "imagenesProductos/imac/imacfamilia.jpg"
     ]
   },
   {
@@ -331,10 +331,10 @@
     "categoria": "watchUltra",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/watchultra/wultraperfilnegro.jpg",
-      "/imagenesProductos/watchultra/wultrafrentenegro.jpg",
-      "/imagenesProductos/watchultra/wultracajanegro.jpg",
-      "/imagenesProductos/watchultra/wultradetalle.jpg"
+      "imagenesProductos/watchultra/wultraperfilnegro.jpg",
+      "imagenesProductos/watchultra/wultrafrentenegro.jpg",
+      "imagenesProductos/watchultra/wultracajanegro.jpg",
+      "imagenesProductos/watchultra/wultradetalle.jpg"
     ]
   },
   {
@@ -344,10 +344,10 @@
     "categoria": "watchUltra",
     "color": "Azul",
     "imagenes": [
-      "/imagenesProductos/watchultra/wultraperfilazul.jpg",
-      "/imagenesProductos/watchultra/wultrafrenteazul.jpg",
-      "/imagenesProductos/watchultra/wultracajaazul.jpg",
-      "/imagenesProductos/watchultra/wultradetalle.jpg"
+      "imagenesProductos/watchultra/wultraperfilazul.jpg",
+      "imagenesProductos/watchultra/wultrafrenteazul.jpg",
+      "imagenesProductos/watchultra/wultracajaazul.jpg",
+      "imagenesProductos/watchultra/wultradetalle.jpg"
     ]
   },
   {
@@ -357,9 +357,9 @@
     "categoria": "watchSerie10-46",
     "color": "Blanco",
     "imagenes": [
-      "/imagenesProductos/watchserie10/w10perfilblanco.jpg",
-      "/imagenesProductos/watchserie10/w10frenteblanco.jpg",
-      "/imagenesProductos/watchserie10/w10cajablanco.jpg"
+      "imagenesProductos/watchserie10/w10perfilblanco.jpg",
+      "imagenesProductos/watchserie10/w10frenteblanco.jpg",
+      "imagenesProductos/watchserie10/w10cajablanco.jpg"
     ]
   },
   {
@@ -369,9 +369,9 @@
     "categoria": "watchSerie10-42",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/watchserie10/w10perfilnegro.jpg",
-      "/imagenesProductos/watchserie10/w10frentenegro.jpg",
-      "/imagenesProductos/watchserie10/w10cajanegro.jpg"
+      "imagenesProductos/watchserie10/w10perfilnegro.jpg",
+      "imagenesProductos/watchserie10/w10frentenegro.jpg",
+      "imagenesProductos/watchserie10/w10cajanegro.jpg"
     ]
   },
   {
@@ -381,10 +381,10 @@
     "categoria": "watchSE-44",
     "color": "Negro",
     "imagenes": [
-      "/imagenesProductos/watchSE/wseperfilnegro.jpg",
-      "/imagenesProductos/watchSE/wsefrentenegro.jpg",
-      "/imagenesProductos/watchSE/wsecajanegro.jpg",
-      "/imagenesProductos/watchSE/wsefamilia.jpg"
+      "imagenesProductos/watchSE/wseperfilnegro.jpg",
+      "imagenesProductos/watchSE/wsefrentenegro.jpg",
+      "imagenesProductos/watchSE/wsecajanegro.jpg",
+      "imagenesProductos/watchSE/wsefamilia.jpg"
     ]
   },
   {
@@ -394,10 +394,10 @@
     "categoria": "watchSE-40",
     "color": "Azul",
     "imagenes": [
-      "/imagenesProductos/watchSE/wseperfilazul.jpg",
-      "/imagenesProductos/watchSE/wsefrenteazul.jpg",
-      "/imagenesProductos/watchSE/wsecajaazul.jpg",
-      "/imagenesProductos/watchSE/wsefamilia.jpg"
+      "imagenesProductos/watchSE/wseperfilazul.jpg",
+      "imagenesProductos/watchSE/wsefrenteazul.jpg",
+      "imagenesProductos/watchSE/wsecajaazul.jpg",
+      "imagenesProductos/watchSE/wsefamilia.jpg"
     ]
   }
     
