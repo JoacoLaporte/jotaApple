@@ -159,19 +159,19 @@
 <!--CONTENIDO EXTRA-->
 <div class="beneficios-contenedor">
   <div class="beneficio">
-    <img src="../../imagenes/enviosApple.jpg" alt="Envíos">
+    <img src="/imagenes/enviosApple.jpg" alt="Envíos">
     <h3>Envíos a domicilio</h3>
     <p>Recibí tus productos sin complicaciones.</p>
   </div>
 
   <div class="beneficio">
-    <img src="../../imagenes/AtencionApple.jpg" alt="Atención">
+    <img src="/imagenes/AtencionApple.jpg" alt="Atención">
     <h3>Atención personalizada</h3>
     <p>Te guiamos en tu compra para elegir lo mejor.</p>
   </div>
 
   <div class="beneficio">
-    <img src="../../imagenes/productosEscritorio.jpg" alt="Productos">
+    <img src="/imagenes/productosEscritorio.jpg" alt="Productos">
     <h3>El precio más conveniente</h3>
     <p>Los mejores productos Apple al mejor precio del mercado.</p>
   </div>
