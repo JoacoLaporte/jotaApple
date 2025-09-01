@@ -8,7 +8,8 @@
           <h2>Carrito</h2>
           <div v-if="store.carrito.length == 0" id="carrito-contenedor-vacio">
             <div id="carrito-contenedor-vacio-img">
-              <img src="../../public/imagenes/carrito-vacio.png" width="400" height="400">
+              <!-- Usamos baseUrl -->
+              <img :src="baseUrl + 'imagenes/carrito-vacio.png'" width="400" height="400">
             </div>
             <div id="carrito-contenedor-vacio-p-boton">
               <p>Tu carrito se encuentra vacío.</p>
@@ -25,7 +26,8 @@
           <br><br>
           <div id="carrito-items" v-for="item in store.carrito" :key="item.id">
             <div class="contenedor-items-img">
-              <img :src="item.imagenes[0]" width="100" height="45">
+              <!-- Para las imágenes de los productos -->
+              <img :src="baseUrl + item.imagenes[0]" width="100" height="45">
             </div>
             <div class="contenedor-items-texto">
               <div>
@@ -36,14 +38,14 @@
               </div>
               <div class="contenedor-items-btn-cantidad">
                 <button @click="store.decrementarCantidad(item.id)" class="cantidad-btn-menos">-</button>
-                <div>
-                  {{ item.cantidad }}
-                </div>
+                <div>{{ item.cantidad }}</div>
                 <button @click="store.incrementarCantidad(item.id)" class="cantidad-btn-mas">+</button>
               </div>
             </div>
             <div class="contenedor-items-btn-eliminar">
-              <button class="boton-eliminar" @click="store.quitarProducto(item.id)" title="Eliminar"><i class="fa fa-trash"></i></button>
+              <button class="boton-eliminar" @click="store.quitarProducto(item.id)" title="Eliminar">
+                <i class="fa fa-trash"></i>
+              </button>
             </div>
           </div>
           <router-link to="/" class="seguir-comprando-link">
@@ -51,6 +53,7 @@
           </router-link>
         </div>
       </div>
+
       <!-- Columna resumen -->
       <div id="carrito-col-resumen" v-if="store.carrito.length > 0">
         <h4>Tu pedido</h4>
@@ -75,9 +78,13 @@
 </template>
 
 
+
 <script setup>
 
 import { useCartStore } from '../stores/cartStore'
+
+// Base URL para imágenes
+const baseUrl = import.meta.env.BASE_URL
 
 const store = useCartStore()
 

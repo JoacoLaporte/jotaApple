@@ -11,7 +11,9 @@
       <div :id="'carousel-' + producto.id" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item" v-for="(img, index) in producto.imagenes" :key="index" :class="{ active: index === 0 }">
-            <img :src="img" class="d-block w-100" :alt="'Imagen ' + (index + 1)">
+            <!-- <img :src="img" class="d-block w-100" :alt="'Imagen ' + (index + 1)"> -->
+            <img :src="baseUrl + img" class="d-block w-100" :alt="'Imagen ' + (index + 1)" />
+
           </div>
         </div>
 
@@ -60,61 +62,45 @@ import { useRoute } from 'vue-router'
 import productosData from '../../public/data/productos.json'
 import { useCartStore } from '../stores/cartStore'
 
-
 export default {
   setup() {
     const route = useRoute()
     const carrito = ref([])
-    // Usamos categorias en vez de categoria
     const categorias = ref(route.params.categoria ? route.params.categoria.split(',') : [])
-    const productos = ref(productosData.productos) // carga los productos desde el JSON
+    const productos = ref(productosData.productos)
     const nombre = ref(route.query.nombre || 'Productos')
+    const baseUrl = import.meta.env.BASE_URL // <- guardamos la base URL aquí
 
-// Actualizar si cambia el valor en la query
-watch(() => route.query.nombre, (nuevo) => {
-  nombre.value = nuevo || 'Productos'
-})
-
-    // Filtrar los productos según las categorías pasadas
+    // Filtrado de productos
     const filteredProducts = computed(() => {
-      if (categorias.value.length === 0) {
-        return productos.value // Si no hay categorías, mostramos todos los productos
-      }
+      if (categorias.value.length === 0) return productos.value
       return productos.value.filter(producto => categorias.value.includes(producto.categoria))
     })
-    // Para cambiar la categoría sin recargar la página
+
+    watch(() => route.query.nombre, (nuevo) => {
+      nombre.value = nuevo || 'Productos'
+    })
+
     watch(() => route.params.categoria, (nuevasCategorias) => {
       categorias.value = nuevasCategorias ? nuevasCategorias.split(',') : []
     })
 
-
     const store = useCartStore()
-
     function agregarAlCarrito(producto) {
       store.agregarProducto(producto)
     }
-//     function agregarAlCarrito(producto) {
-//       const index = carrito.value.findIndex(item => item.id === producto.id)
-//       if (index !== -1) {
-//         carrito.value[index].cantidad += 1
-//       } else {
-//         carrito.value.push({ ...producto, cantidad: 1 })
-//       }
-//       // contador.value = carrito.value.reduce((acc, item) => acc + item.cantidad, 0)
-//       localStorage.setItem('carrito', JSON.stringify(carrito.value))
-  
-// }
 
     return {
-      categorias, 
+      categorias,
       filteredProducts,
       agregarAlCarrito,
-      nombre
+      nombre,
+      baseUrl // <- retornamos la variable al template
     }
   }
 }
-
 </script>
+
 
 
 <style>
