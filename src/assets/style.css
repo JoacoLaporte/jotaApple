@@ -1,0 +1,462 @@
+#app{
+    background-color: #F4F7FB;
+}
+
+/*NAV BAR*/
+
+.navbar.navbar-light.bg-light{
+    background-color: rgb(18, 44, 83) !important;
+}
+/* .navbarnavbar-light.bg-light{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-around !important;
+} */
+
+
+#navbar-logo{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+#img-logo{
+    border-radius: 20px;
+}
+
+#soporte{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #F4F7FB;
+}
+
+#soporte a{
+    text-decoration: none;
+    color: #F4F7FB;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+}
+  
+#soporte a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background: rgb(165, 179, 196);
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.5s ease;
+}
+  
+#soporte a:hover {
+    color: rgb(165, 179, 196);
+}
+  
+#soporte a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+#form-buscar input{
+    border-radius: 10px;
+    border: 1px solid rgb(165, 179, 196);
+}
+
+#form-buscar button{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 3px;
+    color: #F4F7FB;
+}
+
+#form-buscar button:hover{
+    color:rgb(165, 179, 196);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+#nav-productos{
+    background-color: #F4F7FB;
+    border-top: 1px solid black;
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(18, 44, 83);
+}
+
+.nav-item.dropdown{
+    margin-right: 100px;
+    background-color: #F4F7FB;
+    color: rgb(18, 44, 83);
+}
+
+#desplegable-iphone, #desplegable-mac, #desplegable-watch{
+    background-color: #F4F7FB;
+    color: rgb(18, 44, 83);
+}
+
+.dropdown-header{
+    text-align: center;
+    color: rgb(18, 44, 83);
+}
+
+.col{
+    display: inline-grid;
+    justify-content: center;
+}
+
+.dropdown-menu{
+    --bs-dropdown-link-active-bg: transparent !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px !important;
+    border-top: none;
+    border-left: 1px solid black;    
+    border-right: 1px solid black;   
+    border-bottom: 1px solid black;   
+}
+
+.dropdown-item:hover{
+    color: rgb(165, 179, 196);
+    background-color:  #F4F7FB;
+}
+
+
+#icono-carrito{
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+#icono-carrito :hover{
+    color: rgb(165, 179, 196);
+    cursor: pointer;
+   
+}
+
+
+#carrito {
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width:30%;
+    height: 100%;
+    background-color: rgb(165, 179, 196);
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#carrito-contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.contenedor-items-img{
+    width: 35%;
+}
+
+.contenedor-items-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-items-texto{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+/* 
+.contenedor-items-btn-cantidad{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #bdbdbd;
+    border-radius: 15px;
+    width: 33%;
+}
+*/
+
+.contenedor-items-btn-cantidad button{
+    all: unset;
+    cursor: pointer;
+    width: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+.contenedor-items-btn-cantidad div{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+}
+
+.contenedor-items-btn-eliminar{
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-items-btn-eliminar .boton-eliminar{
+    all: unset;
+    cursor: pointer;
+}
+
+
+.cantidad-btn-mas:hover{
+    border-left: 1px solid #cfcfcf;
+    background-color: #cfcfcf;
+    border-radius: 0px 14px 14px 0px;
+}
+
+.cantidad-btn-menos:hover{
+    border-right: 1px solid #cfcfcf;
+    background-color: #cfcfcf;
+    border-radius: 14px 0px 0px 14px;
+}
+
+.carrito-contenedor-total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#carrito .boton-finalizar {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+   
+}
+
+
+#carrito .boton-finalizar:hover {
+    background-color: rgb(18, 44, 83);
+    color: white;
+}
+
+.fondo-opaco {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 39, 0.84);
+    z-index: 900;
+}
+
+#carrito .boton-cerrar-carrito {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#contenedor-productos{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: start;
+    margin-left: 5%;
+}
+
+.card-body{
+   text-align: center;
+}
+
+.card-body button{
+    background-color: rgb(18, 44, 83);
+    color: #ffffff;
+    border: none;
+}
+
+.card-body button:hover{
+    background-color: rgb(165, 179, 196);
+    border: none;
+    color: #000;
+}
+
+.col-md-4.mb-4{
+    width: 30%;
+}
+
+.lista-productos{
+    display: flex;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    color:  rgb(205, 92, 92);
+    margin: 10px; 
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+.productos:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  }
+
+.productos img{
+    width: 250px;
+}
+
+.productos button{
+    all:unset;
+}
+
+
+/*MAC HOME*/
+/* #contenedorMaHhome{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+    background-color: rgba(248,249,250, 1);
+} */
+
+/* .contenedor-machome > img{
+    width: 50%;
+    animation-name: zoomIn;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+} */
+
+
+/*WATCH HOME*/
+/* .contenedor-watchhome{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+    
+} */
+
+/* .contenedor-watchhome > img{
+    width: 50%;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    animation-delay: 2s;
+} */
+
+/* .titulo-watchhome{
+    color: grey;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+/* } */
+
+/* #contenedor-video-iphone{
+    display: flex;
+    border-radius: 70px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgba(248,249,250, 1);
+    text-align: center;
+
+} */
+
+/* #contenedor-video-iphone h1{
+    font-size: 30px;
+    padding-left: 50px;
+
+}
+
+#contenedor-video-iphone video{
+    border-radius: 70px 0px 0px 70px;
+}
+
+#contenedor-video-mac{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(248,249,250, 1);
+}
+
+#contenedor-video-mac video{
+    border-radius: 50px;
+} */
+
+
+/*FOOTER*/
+
+#footer{
+    background-color: rgb(18, 44, 83) !important;
+    color: white !important;
+    font-size: 18px;
+}
+
+
+/* 
+
+#contenedor-footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    
+} */
+
+/* #contenedor-footer ul li{
+    margin-top: 28%;
+    border-top: 1px solid white;
+    
+} */
+
+/* #contenedor-footer a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    
+} */
+
+/* #contenedor-footer a:hover{
+    color: rgb(205, 92, 92);
+ } */
+
+
+
