@@ -186,7 +186,7 @@
 <style scoped>
 
 #primer-enlace-carrusel{
-  background-image: url('../../public/imagenes/iphone16.jpg'); 
+  background-image: url('/imagenes/iphone16.jpg'); 
   background-size: cover; 
   display: flex; 
   width: 100%; 
@@ -197,7 +197,7 @@
 
 
 #segundo-enlace-carrusel{
-  background-image: url('../../public/imagenes/macbookpint.jpg'); 
+  background-image: url('/imagenes/macbookpint.jpg'); 
   display: flex;
   width: 100%;
   height: 500px;
@@ -210,7 +210,7 @@
 }
 
 #tercer-enlace-carrusel{
-  background-image: url('../../public/imagenes/ultrawatch2.jpg'); 
+  background-image: url('/imagenes/ultrawatch2.jpg'); 
   display: flex;
   width: 100%;
   height: 500px;
